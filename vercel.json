@@ -1,6 +1,19 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "public/**/*", "use": "@vercel/static" }
+  "headers": [
+    {
+      "source": "/images/_tree-diagram/manifest.json",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, Accept, Content-Type" },
+        { "key": "Content-Type", "value": "application/ld+json; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
   ]
 }
