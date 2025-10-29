@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/index.json",
+  "type": "Manifest",
+  "label": { "en": ["Vincent"] },
+  "items": [
+    {
+      "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/canvas/0",
+      "type": "Canvas",
+      "label": { "en": ["_tree-diagram"] },
+      "width": 3413,
+      "height": 4200,
+      "items": [
+        {
+          "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/Plate%202.jpeg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3413,
+                "height": 4200,
+                "service": [
+                  {
+                    "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/+tiles",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/canvas/0"
+            }
+          ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/_tree-diagram/images/thumb.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
