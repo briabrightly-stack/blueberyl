@@ -2,12 +2,6 @@
   "version": 2,
   "headers": [
     {
-      "source": "/public/images/_tree-diagram/manifest.json",
-      "headers": [
-        { "key": "Content-Type", "value": "application/ld+json; charset=utf-8" }
-      ]
-    },
-    {
       "source": "/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
