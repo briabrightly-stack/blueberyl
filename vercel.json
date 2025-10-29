@@ -1,4 +1,8 @@
 {
+  "version": 2,
+  "builds": [
+    { "src": "public/**", "use": "@vercel/static" }
+  ],
   "headers": [
     {
       "source": "/images/_tree-diagram/manifest.json",
