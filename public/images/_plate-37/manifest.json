@@ -1,0 +1,43 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://blueberyl.vercel.app/images/_plate-37/manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Plate 37 – Blue Beryl"] },
+  "items": [
+    {
+      "id": "https://blueberyl.vercel.app/images/_plate-37/canvas/0",
+      "type": "Canvas",
+      "label": { "en": ["Plate 37"] },
+      "width": 3413,
+      "height": 4200,
+      "items": [
+        {
+          "id": "https://blueberyl.vercel.app/images/_plate-37/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://blueberyl.vercel.app/images/_plate-37/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://blueberyl.vercel.app/images/_plate-37/canvas/0",
+              "body": {
+                "id": "https://blueberyl.vercel.app/images/_plate-37/Plate%2037.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3413,
+                "height": 4200
+              }
+            }
+          ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://blueberyl.vercel.app/images/_plate-37/Plate%2037.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
