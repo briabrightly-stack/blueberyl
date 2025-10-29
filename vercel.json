@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "public/**", "use": "@vercel/static" }
+  "routes": [
+    { "src": "/images/(.*)", "dest": "/public/images/$1" }
   ],
   "headers": [
     {
-      "source": "/images/_tree-diagram/manifest.json",
+      "source": "/public/images/_tree-diagram/manifest.json",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/images/(.*)",
+      "source": "/public/images/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
