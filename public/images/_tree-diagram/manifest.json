@@ -1,0 +1,44 @@
+{
+  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Vincent – Tree Diagram"] },
+  "items": [
+    {
+      "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/canvas/0",
+      "type": "Canvas",
+      "label": { "en": ["Plate 2"] },
+      "width": 3413,
+      "height": 4200,
+      "items": [
+        {
+          "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/canvas/0",
+              "body": {
+                "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/Plate%202.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3413,
+                "height": 4200
+              }
+            }
+          ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://blueberyl-32w2i4mls-brianas-projects-76c06ed4.vercel.app/images/_tree-diagram/Plate%202.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
+
