@@ -1,16 +1,6 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "blueberyl/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "blueberyl/public" }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/blueberyl/public/$1"
-    }
+    { "src": "public/**/*", "use": "@vercel/static" }
   ]
 }
