@@ -21,11 +21,18 @@
               "motivation": "painting",
               "target": "https://blueberyl.vercel.app/images/_plate-37/canvas/0",
               "body": {
-                "id": "https://blueberyl.vercel.app/images/_plate-37/plate%2037.jpg",
+                "id": "https://blueberyl.vercel.app/images/_plate-37/plate-37.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3413,
-                "height": 4200
+                "height": 4200,
+                "service": [
+                  {
+                    "id": "https://blueberyl.vercel.app/images/_plate-37/plate-37.jpg",
+                    "type": "ImageService2",
+                    "profile": "level2"
+                  }
+                ]
               }
             }
           ]
@@ -33,7 +40,7 @@
       ],
       "thumbnail": [
         {
-          "id": "https://blueberyl.vercel.app/images/_plate-37/plate%2037.jpg",
+          "id": "https://blueberyl.vercel.app/images/_plate-37/plate-37.jpg",
           "type": "Image",
           "format": "image/jpeg"
         }
