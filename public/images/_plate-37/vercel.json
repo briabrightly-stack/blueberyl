@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "src": "/images/(.*)",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "dest": "/images/$1"
+    }
+  ]
+}
