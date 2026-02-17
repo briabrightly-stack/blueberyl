@@ -25,7 +25,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3413,
-                "height": 4200
+                "height": 4200,
+                "service": [
+                  {
+                    "id": "https://blueberyl.vercel.app/images/_plate-37/plate-37.jpg",
+                    "type": "ImageService2",
+                    "profile": "level2"
+                  }
+                ]
               }
             }
           ]
